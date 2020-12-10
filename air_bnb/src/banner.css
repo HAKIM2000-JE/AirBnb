@@ -1,0 +1,73 @@
+.banner {
+  height: 60vh;
+  position: relative;
+  background: url("https://cf.bstatic.com/images/hotel/max1024x768/220/220354585.jpg");
+  background-position-y: center;
+}
+
+.banner_info {
+  background-color: black;
+  color: white;
+
+  padding: 25vh 50px 40px;
+  width: 300px;
+  height: 201px;
+}
+
+.banner_info > h1 {
+  position: relative;
+  bottom: 70px;
+}
+.banner_info > h5 {
+  position: relative;
+  margin-top: 10px;
+  bottom: 70px;
+}
+.banner_info > button {
+  position: relative;
+  cursor: pointer;
+  bottom: 40px;
+  height: 40px;
+  width: 180px;
+
+  background-color: #ff7779;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.btn:hover {
+  background-color: white;
+
+  color: #ff7779;
+}
+.banner_searchbutton {
+  background-color: white !important;
+  font-weight: 99 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  /* padding: 10px !important; */
+}
+
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  text-decoration: none;
+
+  border: 1px solid #ff7779;
+  background-color: #ff7779 !important;
+  font-weight: bold;
+  font-size: large;
+  align-items: center;
+  text-align: center;
+  width: 210px;
+  height: 50px;
+  border-radius: 10px;
+  text-transform: inherit !important;
+  color: white !important;
+}
